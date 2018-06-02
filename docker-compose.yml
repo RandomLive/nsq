@@ -9,7 +9,7 @@ services:
       - "4150:4150"
       - "4151:4151"
       - "4152:4152"
-    command: nsqd --broadcast-address=0.0.0.0 --max-heartbeat-interval=6m0s --msg-timeout=6m0s --lookupd-tcp-address=nsqlookupd:4160 --data-path=/data
+    command: nsqd --broadcast-address=nsqd --max-heartbeat-interval=6m0s --msg-timeout=6m0s --lookupd-tcp-address=nsqlookupd:4160 --data-path=/data
     volumes:
       - /data
     restart: always
@@ -19,7 +19,7 @@ services:
     ports:
       - "4161:4161"
       - "4160:4160"
-    command: nsqlookupd -broadcast-address=0.0.0.0
+    command: nsqlookupd -broadcast-address=nsqlookupd
     restart: always
 
   nsqadmin:
