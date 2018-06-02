@@ -25,12 +25,12 @@ put below lines in your shell init file
 ```shell
     # nsq start
     nsqup() {
-        cd ~/Documents/Docker/nsq && docker-compose up -d
+        cd /your nsq repo path/nsq && docker-compose up -d
         cd -
     }
 
     nsqdown() {
-        cd ~/Documents/Docker/nsq && docker-compose down
+        cd ~/your nsq repo path/nsq && docker-compose down
         cd -
     }
 
