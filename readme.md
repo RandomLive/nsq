@@ -1,5 +1,12 @@
 # Dockerfile for quick start nsq development server
 
+## First
+
+clone this repo
+```shell
+    git clone git@github.com:RandomLive/nsq.git && cd nsq
+```
+
 ## Usage
 
 ```shell
