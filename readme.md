@@ -1,4 +1,4 @@
-# Dockerfile for quick start nsq development server
+# Docker compose file for quick start nsq development server
 
 ## First
 
