@@ -46,5 +46,7 @@ and source your init file
 then
 
 use ```nsqup``` command to start nsq development server
+
 use ```nsqdown``` command to stop nsq development server
+
 use ```nsqrestart``` command to restart nsq development server
